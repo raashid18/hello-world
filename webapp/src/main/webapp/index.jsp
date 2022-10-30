@@ -44,10 +44,7 @@ button {
     }   
 </style>   
 </head>    
-<body>
-<h1> Hello, Welcome to Code with Raashid !!! </h1>
-
-<h1> Alhamdulillah, Every thing is fine !!! </h1>    
+<body>    
     <center> <h1> Student Login Form </h1> </center>   
     <form>  
         <div class="container">   
