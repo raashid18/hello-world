@@ -13,7 +13,7 @@
   <header class="text-gray-400 bg-gray-800 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a href="index.html" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-        <img src="https://drive.google.com/file/d/1QMwNpG_4GKzOUINnzQR3NQTM4eCUjyrE/view?usp=share_link" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+        <img src="hello-world/webapp/src/main/webapp/svcjh.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
           stroke-width="2" class="w-10 h-10 text-white p-2 bg-gray-900 square-full" viewBox="10 10 24 24"></img>
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
