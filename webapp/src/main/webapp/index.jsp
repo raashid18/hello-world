@@ -1,33 +1,62 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Simple Login Form Example</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="login-form">
-  <form>
-    <h1>Login</h1>
-    <div class="content">
-      <div class="input-field">
-        <input type="email" placeholder="Email" autocomplete="nope">
-      </div>
-      <div class="input-field">
-        <input type="password" placeholder="Password" autocomplete="new-password">
-      </div>
-      <a href="#" class="link">Forgot Your Password?</a>
-    </div>
-    <div class="action">
-      <button>Register</button>
-      <button>Sign in</button>
-    </div>
-  </form>
-</div>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
-</html>
+    <!DOCTYPE html>   
+    <html>   
+    <head>  
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <title> Login Page </title>  
+    <style>   
+    Body {  
+      font-family: Calibri, Helvetica, sans-serif;  
+      background-color: pink;  
+    }  
+    button {   
+           background-color: #4CAF50;   
+           width: 100%;  
+            color: orange;   
+            padding: 15px;   
+            margin: 10px 0px;   
+            border: none;   
+            cursor: pointer;   
+             }   
+     form {   
+            border: 3px solid #f1f1f1;   
+        }   
+     input[type=text], input[type=password] {   
+            width: 100%;   
+            margin: 8px 0;  
+            padding: 12px 20px;   
+            display: inline-block;   
+            border: 2px solid green;   
+            box-sizing: border-box;   
+        }  
+     button:hover {   
+            opacity: 0.7;   
+        }   
+      .cancelbtn {   
+            width: auto;   
+            padding: 10px 18px;  
+            margin: 10px 5px;  
+        }   
+            
+         
+     .container {   
+            padding: 25px;   
+            background-color: lightblue;  
+        }   
+    </style>   
+    </head>    
+    <body>    
+        <center> <h1> Student Login Form </h1> </center>   
+        <form>  
+            <div class="container">   
+                <label>Username : </label>   
+                <input type="text" placeholder="Enter Username" name="username" required>  
+                <label>Password : </label>   
+                <input type="password" placeholder="Enter Password" name="password" required>  
+                <button type="submit">Login</button>   
+                <input type="checkbox" checked="checked"> Remember me   
+                <button type="button" class="cancelbtn"> Cancel</button>   
+                Forgot <a href="#"> password? </a>   
+            </div>   
+        </form>     
+    </body>     
+    </html>  
